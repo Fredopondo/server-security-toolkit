@@ -39,10 +39,21 @@ sudo ./monitor.sh     # Start 24/7 monitoring
 ## Real Attack This Stopped
 
 - **Attacker Location:** Tokyo, Japan
-- **Attack Vector:** Exposed Prisma Studio (port 5555)
-- **Malware:** XMRig miner, rsyslo backdoor
+- **Attack Vector:** CVE-2025-55182 (React Server Components RCE)
+- **CVSS Score:** 10.0 (CRITICAL)
+- **Malware:** XMRig miner, rsyslo backdoor, reverse shell
 - **Impact:** 100% CPU, credential theft attempt
 - **Result:** Detected, removed, server hardened
+
+### About CVE-2025-55182
+
+A critical vulnerability in React Server Components allows unauthenticated remote code execution. Attackers can send malicious HTTP requests that, when deserialized by React, execute arbitrary code on the server.
+
+**Affected:** Next.js, React Router, and other frameworks using React Server Components
+
+**Fix:** Update to Next.js 15.5.7+ or 16.0.7+
+
+More info: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components
 
 ## License
 
