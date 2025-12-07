@@ -1,6 +1,6 @@
 # 🛡️ Server Security Toolkit
 
-Emergency security tools for Linux servers. Created after surviving a real attack exploiting **CVE-2025-55182** (React Server Components RCE).
+Emergency security tools for Linux servers. Detect and remove crypto miners, backdoors, and malware. Built in response to **CVE-2025-55182** (React Server Components RCE) attacks.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CVSS](https://img.shields.io/badge/CVSS-10.0%20CRITICAL-red)](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components)
@@ -60,14 +60,14 @@ sudo ./audit.sh       # Full security audit
 | **Attack Type** | Unauthenticated Remote Code Execution |
 | **Attacker Location** | Tokyo, Japan 🇯🇵 |
 
-### What Happened
+### How The Attack Works
 
-Attackers exploited a critical vulnerability in React Server Components. They sent a malicious HTTP request to my Next.js server - **no password or authentication needed**. Within hours:
+Attackers exploit this vulnerability by sending a malicious HTTP request to any vulnerable React Server Components app - **no password or authentication needed**. Typical attack pattern:
 
-- 💀 XMRig crypto miner installed (CPU at 100%)
-- 🚪 rsyslo backdoor for persistent access
+- 💀 XMRig crypto miner installed (CPU spikes to 100%)
+- 🚪 Backdoor processes for persistent access
 - 📡 Reverse shell connecting to attacker's C2 server
-- 🔑 TruffleHog scanning for credentials
+- 🔑 Credential scanners looking for API keys & secrets
 
 ### Affected Packages
 
@@ -100,7 +100,7 @@ npm install react@latest react-dom@latest react-server-dom-webpack@latest
 
 ---
 
-## 📅 Timeline
+## 📅 CVE Timeline
 
 | Date | Event |
 |------|-------|
@@ -108,9 +108,8 @@ npm install react@latest react-dom@latest react-server-dom-webpack@latest
 | Nov 30, 2025 | Meta security confirmed the issue |
 | Dec 1, 2025 | Fix created, hosting providers notified |
 | Dec 3, 2025 | Fix published to npm, CVE disclosed |
-| Dec 5, 2025 | My server compromised |
-| Dec 6, 2025 | Attack detected, cleaned, tools created |
-| Dec 7, 2025 | This toolkit open-sourced |
+| Dec 5-6, 2025 | Active exploitation in the wild |
+| Dec 7, 2025 | This toolkit released to help victims |
 
 ---
 
@@ -146,4 +145,4 @@ If this helped you, consider:
 
 ---
 
-*Created with 💪 after surviving CVE-2025-55182*
+*Built to help the community fight back against CVE-2025-55182 attacks* 💪
